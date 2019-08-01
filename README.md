@@ -7,6 +7,6 @@ to extract apple flag-icons into new `icons` directory
 
 icns creation by [@retifrav](https://github.com/retifrav/python-scripts/blob/master/generate-iconset/generate-iconset.py)
 
-    python3 generate_iconset.py CSLayout.png
+    python3 generate_iconset.py source_images/CSLayout_example.png
 
 to create apple icns file that supports variety of sizes/resolutions

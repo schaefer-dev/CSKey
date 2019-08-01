@@ -18,9 +18,9 @@ if not (os.path.isfile(originalPicture)):
 
 fname = pathlib.Path(originalPicture).stem
 ext = pathlib.Path(originalPicture).suffix
-destDir = pathlib.Path(originalPicture).parent
+destDir = pathlib.Path(originalPicture).parent.parent
 
-iconsetDir = os.path.join(destDir, f"{fname}.iconset")
+iconsetDir = os.path.join(destDir, f"CSLayout.iconset")
 if not (os.path.exists(iconsetDir)):
     pathlib.Path(iconsetDir).mkdir(parents=False, exist_ok=True)
 
@@ -60,4 +60,4 @@ for ip in ListOfIconParameters:
     #print(f"Generated {ip.getIconName()}")
 
 # convert iconset to icns file
-subprocess.call(["iconutil", "-c", "icns", iconsetDir, "-o", os.path.join(destDir, f"{fname}.icns")])
+subprocess.call(["iconutil", "-c", "icns", iconsetDir, "-o", os.path.join(destDir, f"CSLayout.icns")])
