@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.3.0.249 on 2019-07-31 at 20:56 (CEST)-->
+<!--Last edited by Ukelele version 3.3.0.249 on 2019-08-01 at 15:05 (CEST)-->
 <keyboard group="126" id="-13989" name="CS Keyboard Layout With Umlauts" maxout="3">
     <layouts>
         <layout first="0" last="17" mapSet="ANSI" modifiers="commonModifiers"/>
@@ -1792,7 +1792,7 @@
             <!-- added -->
         </action>
         <action id="Y">
-            <when state="none" output="Y"/>
+            <when state="none" output="Z"/>
             <when state="acute" output="Ý"/>
             <when state="circumflex" output="Ŷ"/>
             <when state="diaeresis" output="Ÿ"/>
@@ -1816,7 +1816,7 @@
             <!-- added -->
         </action>
         <action id="Z">
-            <when state="none" output="Z"/>
+            <when state="none" output="Y"/>
             <when state="acute" output="Ź"/>
             <when state="caron" output="Ž"/>
             <when state="cedilla" output="Z̧"/>
@@ -2514,7 +2514,7 @@
             <when state="Math Mode" output="⊕"/>
         </action>
         <action id="y">
-            <when state="none" output="y"/>
+            <when state="none" output="z"/>
             <when state="acute" output="ý"/>
             <when state="circumflex" output="ŷ"/>
             <when state="diaeresis" output="ÿ"/>
@@ -2538,7 +2538,7 @@
             <!-- added -->
         </action>
         <action id="z">
-            <when state="none" output="z"/>
+            <when state="none" output="y"/>
             <when state="Math Mode" output="ℤ"/>
             <when state="acute" output="ź"/>
             <when state="caron" output="ž"/>
