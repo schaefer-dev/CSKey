@@ -5,18 +5,7 @@ import platform
 import sys
 import subprocess
 
-# Simple routine for asking a yes/no question.
-prompt = lambda q: input(q).lower().strip()[0] == "y" or prompt(q)
-
-# Prompt for German Umlauts
-if prompt("Do you need German Umlauts?"):
-  filename = "CSKeyboardLayoutWithUmlauts.keylayout"
-else:
-  filename = "CSKeyboardLayout.keylayout"
-
-if not os.path.isfile(filename):
-  print(f"File {filename} not found. Did you move it?")
-  sys.exit()
+filename = "CSLayout.keylayout"
 
 if platform.system() == "Darwin":  # check if Mac
   target = '/Library/Keyboard\\ Layouts/'
