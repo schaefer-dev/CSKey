@@ -12,13 +12,13 @@ run
 to install the Keyboard Layout with its icon.
 
 
-## Layers
+# Layers
 
 Again full credit to [@Schwenger for the in-depth documentation of the original Version of CSKey](https://github.com/Schwenger/CSKey). The following text is only slighly modified, because of minor changes applied to the original layout.
 
 There are the usual two layers for the usual roman letters in US qwerty format, lowercase without any modifiers and uppercase with the shift modifier. However, Y and Z are swapped for both lower- and uppercase which is something I am still used to from writing german texts.
 
-### Option (⌥) Layer
+## Option (⌥) Layer
 The option and shift-option layer provide access to Greek letters. Once again, the shift button switches from lowercase to uppercase.
 
 Generally, when there is a one-to-one correspondence between Roman and Greek letters, the keyboard layout will reflect it. The epsilon (ε), for example, corresponds to the letter e. This becomes evident when checking out the upper case variants. Greek: E, Roman: E. You see the difference? If so, you should get your eyes checked, man...
@@ -40,7 +40,7 @@ Let's sum up the less obvious choices as a cheat sheet:
 | ω/Ω          | w/W and o/O | ω looks like w and sounds like o |
 | θ/Θ          | j/J         | θ is a di**                      |
 
-#### German Umlauts
+## German Umlauts
 So if you're one of us Germans and sometimes need to throw a couple of üs and äs into the mix, I got you covered!
 
 You can find ä on the a key, ü on the u key, ö on the o key, and --- I know, it's technically not an Umlaut --- ß on the s key. Fun fact: there is even the uppercase ẞ available, even though barely anyone knows about its existence (because it's pointless most of the time).
@@ -58,7 +58,7 @@ Let's sum up the less obvious choices again:
 | σ/Σ                 | q/Q         | σ is a rotated, misshapen q      |
 | α/A                 | v/V         | A is a rotated V missing its bar |
 
-### Math Mode
+## Math Mode
 So far we just combined two character sets --- nothing to write home about.
 Let's add math to the mix, shall we?
 
